@@ -13,9 +13,9 @@ app = Flask(__name__)
 # Routing for your application.
 # Put your routes below this comment
 '''
-@app.route('/')
+@app.route('/about')
 def home():
-    return 'My home page'
+    return render_template('about.html')
 
 
 @app.errorhandler(404)
