@@ -8,3 +8,22 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+h1{
+  font-family: times, "Times New Roman",;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+p{
+  text-align: justify; 
+  font-family: georgia, arial, helvetica;
+  font-size: 16px; 
+  color: white;
+}
+
+body{
+  padding: 70px;
+  background-color: #008080;
+}
